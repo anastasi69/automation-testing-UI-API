@@ -41,6 +41,13 @@
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/net.serenity-bdd.maven.plugins/serenity-maven-plugin -->
+        <dependency>
+            <groupId>net.serenity-bdd.maven.plugins</groupId>
+            <artifactId>serenity-maven-plugin</artifactId>
+            <version>2.3.8</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -55,6 +62,9 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 </project>
+
+

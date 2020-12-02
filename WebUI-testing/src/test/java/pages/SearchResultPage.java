@@ -9,9 +9,6 @@ import java.util.List;
 
 public class SearchResultPage extends BasePage{
 
-    @FindBy(xpath="//span/h1[@span=contains(text(), 'Bedtime Originals Plush Monkey Ollie')]")
-    private WebElement searchedResultsStatus;
-
     @FindBy(xpath="//span[contains(text(), 'No results for')]")
     private WebElement noResultsText;
 
